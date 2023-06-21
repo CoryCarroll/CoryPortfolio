@@ -5,7 +5,7 @@ const About = () => {
         <div className='about mt-96 p-40'>
             <h1 className='name font-bold text-3xl md:text-4xl lg:text-6xl xl:text-6xl text-slate-100'>About Me</h1>
             <div className='flex mt-36'>
-                <img className='selfie w-32 md:w-48 lg:w-96 xl:w-fit' src="images/linkedinpic.jpg" alt="Selfie"/>
+                <img className='selfie w-32 md:w-48 lg:w-96 xl:w-fit h-32 md:h-48 lg:h-96 xl:h-fit' src="images/linkedinpic.jpg" alt="Selfie"/>
                 <div className='p-36'>
                     <p className='text-xl md:text-xl lg:text-2xl xl:text-4xl text-slate-100'>
                         I am a Full Stack Web Developer who enjoys creating front-end functionality and dabbles into back-end databases. I have a background in automoible and automation technical diagnostics and repairs. I found my passion in coding through my diagnostics experience, I am a natural and effective problem solver, I love disecting why something isnt working and gaining the knowledge on how to fix it.
