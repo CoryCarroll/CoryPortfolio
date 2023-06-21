@@ -3,7 +3,7 @@
 This is my personal portfolio that showcases my knowledge and capabilities using React.js. Here you will find information about me, the skills I possess, projects I have built and how you can get in contact with me.
 
 ## Screenshot
-
+![image](./public/images/portfolioscreenshot.png)
 ## Deployed Application
 
 ### Contact me here
