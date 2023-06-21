@@ -14,7 +14,7 @@ const Project = () => {
       image: 'images/weathercheck.png',
     },
     {
-      name: 'Diaster Search',
+      name: 'Disaster Search',
       link: 'https://emileebogdan.github.io/project-1-travel-and-events/',
       image: 'images/safetysearch.png',
     },
@@ -31,35 +31,33 @@ const Project = () => {
 
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex);
-};
+  };
 
   return (
-    <div className="carousel max-w-[1400px] h-[780px] mt-96 w-full m-auto py-16 px-4 relative group">
-      <div className='font-bold text-6xl mb-24 text-slate-100'>My Projects</div>
-      <div className='flex justify-'>
-        {projects.map((project, index) => (
-            <div
-              key={index}
-              className={` border-black border-4 ${index === currentIndex ? 'active' : ''}`}
-
-            >
-              <a href={project.link}>
-                <img src={project.image} alt={project.name} />
-              </a>
-            </div>
-        ))}
+    <div className="carousel mt-10 sm:mt-20 md:mt-36 max-w-[1400px] w-full m-auto py-16 px-4 relative group">
+      <div className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-8 sm:mb-12 text-slate-100'>My Projects</div>
+      <div className='flex justify-center'>
+        <div className={`border-black border-4 m-4 ${currentIndex === 0 ? 'active' : ''}`}>
+          <a href={projects[currentIndex].link} target="_blank" rel="noopener noreferrer">
+            <img 
+            src={projects[currentIndex].image} 
+            alt={projects[currentIndex].name}
+            className="w-full h-auto"
+             />
+          </a>
+        </div>
       </div>
       <div className='flex top-4 justify-center py-2'>
-                {projects.map((slide, slideIndex) => (
-                    <div 
-                    key={slideIndex} 
-                    onClick={() => goToSlide(slideIndex)} 
-                    className='text-2xl cursor-pointer'
-                    >
-                        <RxDotFilled />
-                    </div>
-                ))}
-            </div>
+        {projects.map((slide, slideIndex) => (
+          <div
+            key={slideIndex}
+            onClick={() => goToSlide(slideIndex)}
+            className={`text-2xl cursor-pointer ${slideIndex === currentIndex ? 'text-primary' : ''}`}
+          >
+            <RxDotFilled />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
