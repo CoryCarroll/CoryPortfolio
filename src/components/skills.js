@@ -55,6 +55,7 @@ const Skills = () => {
                 <li>Git</li>
                 <li>GitHub</li>
                 <li>Heroku</li>
+                <li>Salesforce</li>
               </ul>
             </div>
           </div>

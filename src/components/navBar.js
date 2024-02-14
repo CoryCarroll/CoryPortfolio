@@ -22,7 +22,7 @@ const NavBar = () => {
               activeClass='active'
               smooth
               spy
-              to='blog'
+              to='skills'
               className='cursor-pointer transition-colors duration-300 hover:text-primary'
             >
               SKILLS
