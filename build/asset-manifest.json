@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CoryPortfolio/static/css/main.042cc223.css",
+    "main.js": "/CoryPortfolio/static/js/main.d0b8ccf3.js",
+    "index.html": "/CoryPortfolio/index.html",
+    "main.042cc223.css.map": "/CoryPortfolio/static/css/main.042cc223.css.map",
+    "main.d0b8ccf3.js.map": "/CoryPortfolio/static/js/main.d0b8ccf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.042cc223.css",
+    "static/js/main.d0b8ccf3.js"
+  ]
+}
