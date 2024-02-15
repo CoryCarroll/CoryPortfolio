@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'poppins': ['Poppins'],
+        'oswald': ['Oswald'],
+        'protest-guerrilla-regular': ['Protest-Guerrilla'],
+        'protest-strike': ['Protest-Strike']
+      }
+    },
   },
   plugins: [],
 }

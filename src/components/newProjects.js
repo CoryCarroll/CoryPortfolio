@@ -28,7 +28,7 @@ const Project = () => {
       image: task,
     },
   ];
-  
+
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -45,15 +45,15 @@ const Project = () => {
 
   return (
     <div className="carousel mt-10 sm:mt-20 md:mt-36 max-w-[1400px] w-full m-auto py-16 px-4 relative group">
-      <div className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-8 sm:mb-12 text-slate-100'>My Projects</div>
+      <div className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-8 sm:mb-12 text-slate-100 text-center'>My Projects</div>
       <div className='flex justify-center'>
         <div className={`border-black border-4 m-4 ${currentIndex === 0 ? 'active' : ''}`}>
           <a href={projects[currentIndex].link} target="_blank" rel="noopener noreferrer">
             <img 
-            src={projects[currentIndex].image} 
-            alt={projects[currentIndex].name}
-            className="w-full h-auto"
-             />
+              src={projects[currentIndex].image} 
+              alt={projects[currentIndex].name}
+              className="w-90 h-auto" // Adjust the width here (e.g., w-72) to make all images the same size but a little bigger
+            />
           </a>
         </div>
       </div>
