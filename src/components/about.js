@@ -1,4 +1,5 @@
 import React from 'react';
+import selfie from '../images/linkedinpic.jpg'
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
           <div className='flex'>
             <img
               className='selfie'
-              src='images/linkedinpic.jpg'
+              src={selfie}
               alt='Selfie'
             />
             <div className=''>

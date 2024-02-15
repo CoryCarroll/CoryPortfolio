@@ -1,27 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import { RxDotFilled } from 'react-icons/rx';
+import weather from '../images/weather_forecast.png';
+import gaming from '../images/toothlessgaming.png';
+import ecommerce from '../images/Ecommerce_screenshot.png';
+import task from '../images/task_master_screenshot.png';
 
 const Project = () => {
   const projects = [
     {
       name: 'Toothless Gaming',
       link: 'https://corycarroll.github.io/toothlessgaming/',
-      image: '/images/toothlessgaming.png',
+      image: gaming,
     },
     {
       name: 'Weather Dashboard',
       link: 'https://corycarroll.github.io/weathercheck/',
-      image: '/images/weather_forecast.png',
+      image: weather,
     },
     {
       name: 'Ecommerce Database',
       link: 'https://drive.google.com/file/d/1_qItoxtF2tWjG13zSJUvKvFVZn-zVnMW/view',
-      image: '/images/Ecommerce_screenshot.png',
+      image: ecommerce,
     },
     {
       name: 'Task Master',
       link: 'https://personal-taskmanager-960825f39bbf.herokuapp.com/',
-      image: '/images/task_master_screenshot.png',
+      image: task,
     },
   ];
   
