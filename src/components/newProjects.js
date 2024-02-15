@@ -6,24 +6,25 @@ const Project = () => {
     {
       name: 'Toothless Gaming',
       link: 'https://corycarroll.github.io/toothlessgaming/',
-      image: 'images/toothlessgaming.png',
+      image: '/images/toothlessgaming.png',
     },
     {
       name: 'Weather Dashboard',
       link: 'https://corycarroll.github.io/weathercheck/',
-      image: 'images/weather_forecast.png',
+      image: '/images/weather_forecast.png',
     },
     {
       name: 'Ecommerce Database',
       link: 'https://drive.google.com/file/d/1_qItoxtF2tWjG13zSJUvKvFVZn-zVnMW/view',
-      image: 'images/Ecommerce_screenshot.png',
+      image: '/images/Ecommerce_screenshot.png',
     },
     {
       name: 'Task Master',
       link: 'https://personal-taskmanager-960825f39bbf.herokuapp.com/',
-      image: 'images/task_master_screenshot.png',
+      image: '/images/task_master_screenshot.png',
     },
   ];
+  
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
