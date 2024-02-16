@@ -4,7 +4,7 @@ import selfie from '../images/linkedinpic.jpg';
 const About = () => {
   return (
     <div className='about'>
-      <h1 className='name font-bold font-protest-strike'>
+      <h1 className='name text-lg font-bold font-protest-strike'>
         About Me
       </h1>
       <div className='flex flex-col md:flex-row items-center'>

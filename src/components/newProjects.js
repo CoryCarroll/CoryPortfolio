@@ -52,7 +52,7 @@ const Project = () => {
             <img 
               src={projects[currentIndex].image} 
               alt={projects[currentIndex].name}
-              className="w-90 h-auto" // Adjust the width here (e.g., w-72) to make all images the same size but a little bigger
+              className="w-auto h-auto" 
             />
           </a>
         </div>
