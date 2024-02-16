@@ -3,7 +3,8 @@ import { Link } from 'react-scroll';
 
 const NavBar = () => {
   return (
-    <nav className='flex justify-end m-10 bg-green-800'>
+    <div>
+    <nav className='flex justify-end my-10 bg-gray-300'>
       <ul className='flex justify-end flex-wrap h-20'>
         <li className='my-2 md:my-0 mx-2 pt-6'>
           <Link
@@ -51,6 +52,7 @@ const NavBar = () => {
         </li>
       </ul>
     </nav>
+    </div>
   );
 };
 

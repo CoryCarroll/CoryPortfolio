@@ -44,15 +44,14 @@ const Project = () => {
   };
 
   return (
-    <div className="carousel mt-10 sm:mt-20 md:mt-36 max-w-[1400px] w-full m-auto py-16 px-4 relative group">
-      <div className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-6xl mb-8 sm:mb-12 text-slate-100 text-center'>My Projects</div>
-      <div className='flex justify-center'>
+    <div className="carousel sm:mt-20 md:mt-20 max-w-[1400px] px-4 relative group">
+      <div className='text-3xl ml-6 text-white font-bold font-poppins border-b-2 border-yellow-300'>My Projects</div>
+      <div className='flex justify-center ml-60'>
         <div className={`border-black border-4 m-4 ${currentIndex === 0 ? 'active' : ''}`}>
           <a href={projects[currentIndex].link} target="_blank" rel="noopener noreferrer">
             <img 
               src={projects[currentIndex].image} 
               alt={projects[currentIndex].name}
-              className="w-auto h-auto" 
             />
           </a>
         </div>
@@ -73,3 +72,4 @@ const Project = () => {
 };
 
 export default Project;
+

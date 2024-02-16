@@ -7,7 +7,9 @@ module.exports = {
         'poppins': ['Poppins'],
         'oswald': ['Oswald'],
         'protest-guerrilla-regular': ['Protest-Guerrilla'],
-        'protest-strike': ['Protest-Strike']
+        'protest-strike': ['Protest-Strike'],
+        'kode+mono': ['Kode Mono'],
+        'merriweather': ['Merriweather']
       }
     },
   },
