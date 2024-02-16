@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CoryPortfolio/static/css/main.6f49192c.css",
-    "main.js": "/CoryPortfolio/static/js/main.956fc001.js",
+    "main.css": "/CoryPortfolio/static/css/main.d3257752.css",
+    "main.js": "/CoryPortfolio/static/js/main.a9c7b01e.js",
     "static/media/toothlessgaming.png": "/CoryPortfolio/static/media/toothlessgaming.b398c6df468c27ae0ef6.png",
     "static/media/Ecommerce_screenshot.png": "/CoryPortfolio/static/media/Ecommerce_screenshot.d7cc27f14459b83145bb.png",
     "static/media/linkedinpic.jpg": "/CoryPortfolio/static/media/linkedinpic.e97400cc852b9baa2795.jpg",
@@ -9,11 +9,11 @@
     "static/media/task_master_screenshot.png": "/CoryPortfolio/static/media/task_master_screenshot.c99031c85e4bfae54a71.png",
     "static/media/GitHub-logo.png": "/CoryPortfolio/static/media/GitHub-logo.7c8f7736007664c4b0ba.png",
     "index.html": "/CoryPortfolio/index.html",
-    "main.6f49192c.css.map": "/CoryPortfolio/static/css/main.6f49192c.css.map",
-    "main.956fc001.js.map": "/CoryPortfolio/static/js/main.956fc001.js.map"
+    "main.d3257752.css.map": "/CoryPortfolio/static/css/main.d3257752.css.map",
+    "main.a9c7b01e.js.map": "/CoryPortfolio/static/js/main.a9c7b01e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f49192c.css",
-    "static/js/main.956fc001.js"
+    "static/css/main.d3257752.css",
+    "static/js/main.a9c7b01e.js"
   ]
 }
