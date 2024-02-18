@@ -5,6 +5,7 @@ import Header from './header';
 import Footer from './footer';
 import Skills from './skills';
 import NavBar from './navBar';
+import ContactForm from './contactMe';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <About />
             <Skills />
             <Project />
+            <ContactForm />
             <Footer />
         </div>
     )

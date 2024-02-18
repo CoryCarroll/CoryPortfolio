@@ -44,10 +44,10 @@ const Project = () => {
   };
 
   return (
-    <div className="carousel sm:mt-20 md:mt-20 max-w-[1400px] px-4 relative group">
+    <div className="carousel pr-10 pl-4 relative">
       <div className='text-3xl ml-6 text-white font-bold font-poppins border-b-2 border-yellow-300'>My Projects</div>
-      <div className='flex justify-center ml-60'>
-        <div className={`border-black border-4 m-4 ${currentIndex === 0 ? 'active' : ''}`}>
+      <div className='flex justify-center'>
+        <div className={`m-4 ${currentIndex === 0 ? 'active' : ''} mx-auto md:w-3/4 lg:w-1/2 xl:w-1/2`}>
           <a href={projects[currentIndex].link} target="_blank" rel="noopener noreferrer">
             <img 
               src={projects[currentIndex].image} 
@@ -61,7 +61,7 @@ const Project = () => {
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className={`text-2xl cursor-pointer ${slideIndex === currentIndex ? 'text-primary' : ''}`}
+            className={`text-2xl cursor-pointer ${slideIndex === currentIndex ? 'text-primary' : ''} `}
           >
             <RxDotFilled />
           </div>
@@ -72,4 +72,5 @@ const Project = () => {
 };
 
 export default Project;
+
 

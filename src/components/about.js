@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const About = () => {
   return (
     <div className='about mt-20'>
@@ -8,16 +7,10 @@ const About = () => {
         About Me
       </h1>
       <div className='flex flex-col pt-2 md:flex-row justify-center'>
-        <div className='w-full mb-5 mx-20 md:w-32 lg:w-48'>
+        <div className='w-full mb-5 md:mx-4 lg:mx-20 md:w-1/2 lg:w-3/5 xl:w-2/3'>
+          {/* Adjusting margins and widths based on screen sizes */}
           <p className='text-2xl text-white font-poppins'>
-            I am a Full Stack Web Developer who enjoys creating front-end functionality and dabbles into back-end
-            databases. I have a background in automotive and automation technical diagnostics and repairs. I found my
-            passion in coding through my diagnostics experience. I am a natural and effective problem solver, and I love
-            dissecting why something isn't working and gaining the knowledge on how to fix it.
-            I enjoy traveling the world with my beautiful wife Haniel and our goofy dogs Kylo and Oakley. I am always
-            planning a new adventure for us to embark on. When I am home, I am creating and thinking of website ideas
-            for future business plans. I enjoy long walks around our neighborhood, park dates with our dogs, as well as
-            playing and streaming video games in my free time.
+          I'm a Full Stack Web Developer with a background in automotive and automation diagnostics. Passionate problem solver with a knack for front-end functionality and back-end databases. I love traveling with my wife and dogs, planning new adventures, and brainstorming website ideas for future ventures.
           </p>
         </div>
       </div>
